@@ -1,4 +1,3 @@
-
 .navbar{
     width: 100%;
     overflow: hidden;
@@ -66,7 +65,7 @@
 #background{
     width: 100%;
     height: 100%;
-    background: url(../image/b1.jpeg);
+    background: url(../image/bi.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
     -webkit-background-size:cover;
@@ -129,9 +128,10 @@
 
 .border{
     border-style: solid; 
+    border-width: 2px;
     border-color: bisque;
     border-radius: 8px;
-    box-shadow: 0 4px 8px 0 rgba(211, 40, 40, 0.2), 0 6px 20px 0 rgba(206, 39, 39, 0.19);
+    box-shadow: 0 3px 4px 0 rgba(211, 40, 40, 0.2), 0 3px 4px 0 rgba(206, 39, 39, 0.19);
 }
 
 /* Clearfix (clear floats) */
@@ -146,9 +146,9 @@ flex-direction: row; */
 .row{
     content: "";
     clear: both;
-    /* display: table; */
-    display: flex;
-    flex-direction: row;
+    display: table;
+    /* display: flex;
+    flex-direction: row; */
     
 }
 
@@ -167,7 +167,7 @@ flex-direction: row; */
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    
+    /* font-size: 5px; */
 
 }
 
@@ -214,20 +214,20 @@ flex-direction: row; */
 
 
 
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
     section.navbar div.right, 
     section.navbar div {float: none; text-align: left; margin: 2px;}
   }
 
-@media screen and (max-width: 600px){
+@media (max-width: 600px){
     
     .image {
         width: 100%;
         float: none;
     }
+}
 
-
-/* @media screen and (max-width: 600px){ */
+@media (max-width: 600px){
     
     .lsctn {
         width: 100%;
@@ -235,22 +235,22 @@ flex-direction: row; */
         display: flex;
         flex-direction: column;
     }
+}
 
-
-/* @media screen and (max-width: 600px){ */
+@media (max-width: 600px){
     
     .clmn {
         width: 100%;
         float: none;
         
     }
-
+}
 /* 
 body, html{ 
     height: 100%;
 } */
 
-/* @media screen and (max-width: 600px) { */
+@media (max-width: 600px) {
     #background {
       background-attachment: scroll;
     }
